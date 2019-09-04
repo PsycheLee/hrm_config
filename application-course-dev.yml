@@ -1,0 +1,13 @@
+﻿server:
+  port: 9002
+spring:
+  application:
+    name: hrm-course
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/hrm_course 
+      username: root
+      password: 1017
+mybatis-plus:
+  mapper-locations: classpath:com/lixuelian/hrm/mapper/*Mapper.xml
+  type-aliases-package: com.lixuelian.hrm.domain,com.lixuelian.hrm.query
