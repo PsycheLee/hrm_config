@@ -17,6 +17,8 @@ zuul:
     redis.path: /redis/**
     page.serviceId: hrm-page 
     page.path: /page/**
+    pageAgent.serviceId: hrm-page-agent 
+    pageAgent.path: /pageAgent/**
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
   retryable: true  #是否重试
